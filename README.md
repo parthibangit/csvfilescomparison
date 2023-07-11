@@ -20,7 +20,8 @@ The application packages are organized by application that is being tested, e.g.
 ```diagram
 📦 main
   📦 java
-      ┣ 📂 reader
+      ┣ 📂 CsvReader
+      ┣ 📂 CsvWriter
 
 📦 test
   📦 app
@@ -46,5 +47,5 @@ Path = (test -> app -> out -> PositionReport - Sheet1.csv)
 
 ### Common Classes
 CsvReader - This class used to read a values from given csv file.
-CsvWriter - This class used to write a values to destination csv file.
+CsvWriter - This class used to write a values to destination csv file and compare the output file values to input files.
 
